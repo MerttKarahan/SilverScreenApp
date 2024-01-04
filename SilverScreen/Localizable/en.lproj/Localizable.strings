@@ -1,0 +1,85 @@
+/* 
+  Localizable.string.strings
+  SilverScreen
+
+  Created by Karahan, Mert on 5.12.2023.
+  
+*/
+
+//MARK: DetailsViewController
+"detailsVC.navigationBar.title" = "DETAILS";
+"detailsVC.addFavoritesButton.title" = "Add to favorites";
+"detailsVC.removeFavoritesButton.title" = "Remove from favorites";
+"detailsVC.reviewsView.title" = "Reviews";
+"detailsVC.similarView.title" = "Similar";
+"detailsVC.overviewView.title" = "Overview";
+"detailsVC.voteAverage.title" = "Vote Average:";
+"detailsVC.language.title" = "Language:";
+"detailsVC.time.title" = "Time:";
+"detailsVC.seasonEpisode.title" = "Season/Episode:";
+"detailsVC.genre.title" = "Genre:";
+"detailsVC.state.title" = "State:";
+"detailsVC.title.title" = "Title:";
+"detailsVC.releaseDate.title" = "Release Date:";
+"detailsVC.minutes.label" = " min";
+
+//MARK: SeeAllItemsViewController
+"seeAllItems.navigationBar.popular.tvShows.title" = "POPULAR TV SHOWS";
+"seeAllItems.navigationBar.popular.movies.title" = "POPULAR MOVIES";
+"seeAllItems.navigationBar.topRated.tvShow.title" = "TOP RATED TV SHOWS";
+"seeAllItems.navigationBar.topRated.movies.title" = "TOP RATED TV MOVIES";
+"seeAllItems.navigationBar.trending.tvShows.title" = "TRENDING TV SHOWS";
+"seeAllItems.navigationBar.trending.movies.title" = "TRENDING MOVIES";
+"seeAllItems.navigationBar.upcoming.movies.title" = "UPCOMING MOVIES";
+
+//MARK: SegmentedControl
+"segmentedControl.movie.title" = "MOVIES";
+"segmentedControl.tvShow.title" = "TV SHOWS";
+
+//MARK: HomeViewController
+"homeVC.giveAChance.title" = "GIVE A CHANCE";
+"homeVC.upcoming.title" = "UPCOMING";
+"homeVC.topRated.title" = "TOP RATED";
+"homeVC.trending.title" = "TRENDING";
+"homeVC.popular.title" = "POPULAR";
+"homeVC.seeAllItems.title" = "See All";
+
+//MARK: TabBar
+"tabBar.home.title" = "home";
+"tabBar.search.title" = "search";
+"tabBar.favorite.title" = "favorites";
+"tabBar.profile.title" = "profile";
+
+//MARK: SearchViewController
+"searchVC.searchBar.placeholder.text" = "Search...";
+"searchVC.search.text" = "Select type and search...";
+
+
+//MARK: FavoritesViewController
+"favoritesVC.swipped.text" = "Delete";
+"favoritesVC.noData.text" = "There is no favorite items...";
+
+//MARK: ProfileViewController
+"profileVC.logoutButton.text" = "Logout";
+"profileVC.savedPhoto.text" = "Photo saved successfully";
+"profileVC.signOutFailure.text" = "Failure SignOut";
+"profileVC.userID.text" = "User ID: ";
+"profileVC.createdDate.text" = "Account Created Date: ";
+"profileVC.gmail.text" = "Mail: ";
+
+//MARK: LoginViewController
+"loginVC.signInButton.text" = "Sign In";
+"loginVC.signUpButton.text" = "Sign Up";
+"loginVC.emailTextfield.placeholder.text" = "Email...";
+"loginVC.password.placeholder.text" = "Password";
+
+//MARK: AlertViewController
+"alertVC.savedSuccessfully.text" = "Saved successfully";
+"alertVC.deletedSuccessfully.text" = "Deleted Successfully";
+"alertVC.emptyMailorPassword.text" = "Email or password field should not be empty";
+"alertVC.repeatableErrorButtonTitle.text" = "Retry";
+"alertVC.infoErrorButtonTitle.text" = "OK";
+
+//MARK: ActivityIndicatorViewController
+"activityIndicator.searchingDatas.text" = "Searching Items...";
+"activityIndicator.downloadingVideo.text" = "Download Video...";

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityIndicatorView" customModule="SilverScreen" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="naI-pR-hEJ" id="MoD-Rd-vyH"/>
+                <outlet property="warningLabel" destination="296-UQ-yXG" id="q9e-ZP-PkN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kbj-cS-jaX">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Lgw-Vv-5QH">
+                    <rect key="frame" x="20" y="55.333333333333329" width="346" height="40.333333333333329"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="naI-pR-hEJ">
+                            <rect key="frame" x="0.0" y="0.0" width="346" height="20"/>
+                            <color key="color" red="1" green="0.46666666670000001" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </activityIndicatorView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="296-UQ-yXG">
+                            <rect key="frame" x="0.0" y="19.999999999999993" width="346" height="20.333333333333336"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.46666666670000001" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Lgw-Vv-5QH" secondAttribute="trailing" constant="20" id="LM6-5Z-X7s"/>
+                <constraint firstItem="Lgw-Vv-5QH" firstAttribute="leading" secondItem="kbj-cS-jaX" secondAttribute="leading" constant="20" id="VAk-a7-E1p"/>
+                <constraint firstItem="Lgw-Vv-5QH" firstAttribute="centerY" secondItem="kbj-cS-jaX" secondAttribute="bottom" multiplier="0.4" constant="12.333333333333343" id="qn4-mz-JZh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="204.58015267175571" y="-179.57746478873241"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,85 @@
+/* 
+  Localizable.string.strings
+  SilverScreen
+
+  Created by Karahan, Mert on 5.12.2023.
+  
+*/
+
+//MARK: DetailsViewController
+"detailsVC.navigationBar.title" = "DETAY";
+"detailsVC.addFavoritesButton.title" = "Favorilere ekle";
+"detailsVC.removeFavoritesButton.title" = "Favorilerden çıkar";
+"detailsVC.reviewsView.title" = "Yorumlar";
+"detailsVC.similarView.title" = "Benzer";
+"detailsVC.overviewView.title" = "Genel Bakış";
+"detailsVC.voteAverage.title" = "Puan:";
+"detailsVC.language.title" = "Dil:";
+"detailsVC.time.title" = "Süre:";
+"detailsVC.seasonEpisode.title" = "Sezon/Bölüm:";
+"detailsVC.genre.title" = "Tür:";
+"detailsVC.state.title" = "Ülke:";
+"detailsVC.title.title" = "İsim:";
+"detailsVC.releaseDate.title" = "Tarih:";
+"detailsVC.minutes.label" = " dk";
+
+//MARK: SeeAllItemsViewController
+"seeAllItems.navigationBar.popular.tvShows.title" = "POPÜLER DİZİLER";
+"seeAllItems.navigationBar.popular.movies.title" = "POPÜLER FİLMLER";
+"seeAllItems.navigationBar.topRated.tvShow.title" = "EN ÇOK OYLANAN DİZİLER";
+"seeAllItems.navigationBar.topRated.movies.title" = "TEN ÇOK OYLANAN FİLMLER";
+"seeAllItems.navigationBar.trending.tvShows.title" = "TREND DİZİLER";
+"seeAllItems.navigationBar.trending.movies.title" = "TREND FİLMLER";
+"seeAllItems.navigationBar.upcoming.movies.title" = "VİZYONA GİRECEK FİLMLER";
+
+//MARK: SegmentedControl
+"segmentedControl.movie.title" = "FİLMLER";
+"segmentedControl.tvShow.title" = "DİZİLER";
+
+//MARK: HomeViewController
+"homeVC.giveAChance.title" = "ŞANS VER";
+"homeVC.upcoming.title" = "VİZYONA GİRECEK";
+"homeVC.topRated.title" = "EN ÇOK OYLANAN";
+"homeVC.trending.title" = "TREND";
+"homeVC.popular.title" = "POPÜLER";
+"homeVC.seeAllItems.title" = "Hepsini Gör";
+
+//MARK: TabBar
+"tabBar.home.title" = "ana sayfa";
+"tabBar.search.title" = "arama";
+"tabBar.favorite.title" = "favoriler";
+"tabBar.profile.title" = "profil";
+
+//MARK: SearchViewController
+"searchVC.searchBar.placeholder.text" = "Ara...";
+"searchVC.search.text" = "Bir tip seç ve ara...";
+
+//MARK: FavoritesViewController
+"favoritesVC.swipped.text" = "Sil";
+"favoritesVC.noData.text" = "Hiç favori eleman yok...";
+
+//MARK: ProfileViewController
+"profileVC.logoutButton.text" = "Çıkış yap";
+"profileVC.savedPhoto.text" = "Fotoğraf başarıyla kaydedildi";
+"profileVC.signOutFailure.text" = "Başarısız SignOut";
+"profileVC.userID.text" = "Kullanıcı ID: ";
+"profileVC.createdDate.text" = "Hesap Açılma Tarihi: ";
+"profileVC.gmail.text" = "Mail: ";
+
+
+//MARK: LoginViewController
+"loginVC.signInButton.text" = "Giriş Yap";
+"loginVC.signUButton.text" = "KAYDOL";
+"loginVC.emailTextfield.placeholder.text" = "Email...";
+"loginVC.password.placeholder.text" = "Şifre...";
+
+//MARK: AlertViewController
+"alertVC.savedSuccessfully.text" = "Başarıyla kaydedildi";
+"alertVC.deletedSuccessfully.text" = "Başarıyla silindi";
+"alertVC.emptyMailorPassword.text" = "Email veya şifre alanı boş olmamalı";
+"alertVC.repeatableErrorButtonTitle.text" = "Tekrar Dene";
+"alertVC.infoErrorButtonTitle.text" = "OK";
+
+//MARK: ActivityIndicatorViewController
+"activityIndicator.searchingDatas.text" = "Aranıyor...";
+"activityIndicator.downloadingVideo.text" = "Video indiriliyor...";

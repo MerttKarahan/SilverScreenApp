@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentedControllView" customModule="SilverScreen" customModuleProvider="target">
+            <connections>
+                <outlet property="segmentedControl" destination="0Ku-Mc-Lxa" id="I1d-bk-G1i"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2Cb-Jr-Hht">
+            <rect key="frame" x="0.0" y="0.0" width="624" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0Ku-Mc-Lxa">
+                    <rect key="frame" x="0.0" y="0.0" width="624" height="56"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <segments>
+                        <segment title="Movies"/>
+                        <segment title="TV Shows"/>
+                    </segments>
+                    <color key="selectedSegmentTintColor" red="1" green="0.46666666670000001" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="segmentedControllTapped:" destination="-1" eventType="valueChanged" id="s4K-CQ-fUS"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Rya-MD-jCC"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="0Ku-Mc-Lxa" firstAttribute="leading" secondItem="2Cb-Jr-Hht" secondAttribute="leading" id="Fa2-pj-vQq"/>
+                <constraint firstAttribute="bottom" secondItem="0Ku-Mc-Lxa" secondAttribute="bottom" id="H4j-O6-RJd"/>
+                <constraint firstItem="0Ku-Mc-Lxa" firstAttribute="top" secondItem="2Cb-Jr-Hht" secondAttribute="top" id="Jgj-Bw-t87"/>
+                <constraint firstAttribute="trailing" secondItem="0Ku-Mc-Lxa" secondAttribute="trailing" id="l1B-3U-JgI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="419.84732824427482" y="-258.80281690140845"/>
+        </view>
+    </objects>
+</document>

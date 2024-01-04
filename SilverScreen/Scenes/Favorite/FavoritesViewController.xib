@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoritesViewController" customModule="SilverScreen" customModuleProvider="target">
+            <connections>
+                <outlet property="favoritesItemTableView" destination="hVJ-HA-YTb" id="Lxb-l6-9Xp"/>
+                <outlet property="noDataView" destination="R9C-4H-fVV" id="vI2-kQ-nTn"/>
+                <outlet property="segmentedControlView" destination="dUq-ld-SLb" id="Nf5-8e-hXd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dUq-ld-SLb" customClass="SegmentedControllView" customModule="SilverScreen" customModuleProvider="target">
+                    <rect key="frame" x="4" y="59" width="385" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="R5W-JH-EQD"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hVJ-HA-YTb">
+                    <rect key="frame" x="4" y="102" width="385" height="708"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9C-4H-fVV" customClass="NoDataView" customModule="SilverScreen" customModuleProvider="target">
+                    <rect key="frame" x="4" y="102" width="385" height="708"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="R9C-4H-fVV" firstAttribute="leading" secondItem="hVJ-HA-YTb" secondAttribute="leading" id="1qM-nu-Luy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="hVJ-HA-YTb" secondAttribute="bottom" constant="8" id="Fn3-Ob-ZTH"/>
+                <constraint firstItem="dUq-ld-SLb" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Fqw-9Q-5kM"/>
+                <constraint firstItem="dUq-ld-SLb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="4" id="N5N-hs-V0j"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dUq-ld-SLb" secondAttribute="trailing" constant="4" id="S5o-kQ-vvw"/>
+                <constraint firstItem="hVJ-HA-YTb" firstAttribute="top" secondItem="dUq-ld-SLb" secondAttribute="bottom" constant="8" id="WqR-NY-fBQ"/>
+                <constraint firstItem="R9C-4H-fVV" firstAttribute="top" secondItem="hVJ-HA-YTb" secondAttribute="top" id="hHS-cp-a6G"/>
+                <constraint firstItem="hVJ-HA-YTb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="4" id="rdL-ax-OSW"/>
+                <constraint firstItem="R9C-4H-fVV" firstAttribute="trailing" secondItem="hVJ-HA-YTb" secondAttribute="trailing" id="wQV-ti-MlU"/>
+                <constraint firstItem="R9C-4H-fVV" firstAttribute="bottom" secondItem="hVJ-HA-YTb" secondAttribute="bottom" id="ybF-mM-HXp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hVJ-HA-YTb" secondAttribute="trailing" constant="4" id="zkT-c9-Ccp"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="21"/>
+        </view>
+    </objects>
+</document>
